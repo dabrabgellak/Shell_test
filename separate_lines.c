@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-int separate_lines(int argc, __attribute__((unused)) char **argv)
+int *separate_lines(int argc, __attribute__((unused)) char **argv)
 {
 	char *buffer = NULL;
 	char *array;
